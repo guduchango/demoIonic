@@ -49,7 +49,7 @@ export ANDROID_HOME="/home/pepe/Android/Sdk"
 
 # Crear el primer proyecto en ionic
 ```
-ionic start todo blank
+ionic start --v2 myApp tabs
 
 ionic platform add android
 
