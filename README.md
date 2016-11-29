@@ -1,7 +1,7 @@
 # Instalación de Ionic
 
 
-#Instalar nodejs
+## Instalar nodejs
 ```
 sudo apt-get install python-software-properties
 
@@ -10,17 +10,17 @@ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
 sudo apt-get install nodejs
 ```
 
-# Instalar cordova
+## Instalar cordova
 ```
 sudo npm install -g cordova
 ```
 
-# Instalar ionic
+## Instalar ionic
 ```
 sudo npm install -g ionic
 ```
 
-# Instalar java en ubuntu 
+## Instalar java en ubuntu 
 ```
 sudo add-apt-repository ppa:webupd8team/java
 
@@ -33,7 +33,7 @@ sudo update-java-alternatives -s java-8-oracle
 sudo apt-get install oracle-java8-set-default
 ```
 
-# Instalar JDK android
+## Instalar JDK android
 ```
 # Descargar Android Studio
 https://developer.android.com/studio/index.html
@@ -42,12 +42,12 @@ https://developer.android.com/studio/index.html
 /home/pepe/Android
 ```
 
-# Setear variable ANDROID_HOME
+## Setear variable ANDROID_HOME
 ```
 export ANDROID_HOME="/home/pepe/Android/Sdk"
 ```
 
-# Crear el primer proyecto en ionic
+## Crear el primer proyecto en ionic
 ```
 ionic start --v2 myApp tabs
 
@@ -56,7 +56,20 @@ ionic platform add android
 ionic build android
 ```
 
-# Buscar tu primera apk
+## Buscar tu primera apk
 ```
 /home/chango/IonicProyects/demoIonic/platforms/android/build/outputs/apk
+```
+
+## Extras 
+
+```
+# Para que ande el emulador
+sudo apt-get install qemu-kvm libvirt-bin ubuntu-vm-builder bridge-utils
+
+# Emular en la web
+ionic serve
+
+# Emular en android
+ionic run android
 ```
